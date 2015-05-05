@@ -53,114 +53,76 @@ body
 	font-size: 12px 
 	line-height: 1.4
 
-
-// common blocks      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//fonts
++font("OpenSansLightItalic", opensans-lightitalic)
++font("OpenSansRegular", opensans-regular)
++font("OpenSansSemibold", opensans-semibold)
++font("OpenSansBold", opensans-bold)
+
+=litalic
+	font-family: "OpenSansLightItalic", Arial, sans-serif
+=reg
+	font-family: "OpenSansRegular", Arial, sans-serif
+=semi
+	font-family: "OpenSansSemibold", Arial, sans-serif
+=bold
+	font-family: "OpenSansBold", Arial, sans-serif
+	
+=mbold
+	font-family: "Myriad Pro", Arial, sans-serif
+	font-weight: 700 
+=msemi
+	font-family: "Myriad Pro", Arial, sans-serif
+	font-weight: 600 
+
+h1, h2, h3, h4, h5, h6, strong, b
+	font-weight: normal
+
+h2
+	+bold
+	font-size: 45px
+	line-height: 1
+	color: #56616e
+	text-transform: uppercase
+	+r(1024)
+		font-size: 36px
+	+r(640)
+		font-size: 26px
+p
+	+reg
+	font-size: 20px
+	line-height: 1.5
+	+r(1024)
+		font-size: 16px
+	+r(640)
+		font-size: 14px
+		
+.btn
+	+bold
+	font-size: 20px
+	line-height: 1
+	letter-spacing: 0.02em 
+	color: #fff
+	text-transform: uppercase
+	background: #e3303d
+	+border-radius(4px)
+	padding: 29px 20px 
+	width: 100%
+	max-width: 325px
+	+box
+	+box-shadow(inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15)) 
+	position: relative 
+	display: inline-block
+	+transition(background 0.3s)
+	+r(1024)
+		font-size: 16px
+		padding: 29px*0.75 20px*0.75  
+		max-width: 325px*0.75 
+	+r(640)
+		font-size: 14px
+	&:hover
+		background: darken(#e3303d, 3%) 
+	&:active
+		top: 1px
+		+box-shadow(inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15)) 
+		

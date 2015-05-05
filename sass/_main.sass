@@ -1,1 +1,205 @@
-// Normally mainpage styles
+.out
+	min-width: 320px
+
+.inner
+	max-width: 1300px
+	padding: 0 10px
+	+box 
+	margin: 0 auto
+	+clr
+	h2
+		clear: both
+		position: relative
+		text-align: center
+		&:after
+			display: block
+			content: "" 
+			width: 96px
+			height: 4px
+			background: #000000
+			+opacity(0.15) 
+			margin: 74px auto 0 
+			 
+.header
+	background: #e3303d
+	padding: 49px 0 90px 
+	text-align: center
+	+r(1024)
+		padding: 49px*0.75 0 90px*0.75 
+	h2
+		color: #fff
+		margin-bottom: 65px
+	p
+		color: #fff 
+	&__top 
+		padding: 0 0 155px 
+		+r(1024)
+			padding: 0 0 155px*0.75
+		+r(640)
+			padding: 0 0 155px*0.5 
+.logo
+	max-width: 296px
+	font-size: 0
+	float: left
+	+r(640)
+		max-width: 296px*0.75
+	+r(480)
+		float: none
+		display: inline-block
+	img
+		width: 100%
+		
+.social
+	float: right
+	font-size: 0
+	+r(480)
+		float: none
+		padding: 30px 0 0 
+	li
+		margin-left: 19px
+		display: inline-block
+		vertical-align: top
+	a
+		display: block
+		width: 49px
+		height: 49px
+		background: #c12934 
+		+border-radius(50%)
+		+vertical
+		+transition(background 0.3s)
+		+r(640)
+			width: 49px*0.75
+			height: 49px*0.75
+		&:hover
+			background: darken(#c12934, 5%) 
+		i
+			display: inline-block
+			vertical-align: middle
+		&.is-fb
+			i
+				+svg(fb, 12, 23)
+				+r(640)
+					+svg(fb, 12*0.75, 23*0.75)					
+		&.is-tw
+			i
+				+svg(tw, 25, 22)
+				+r(640)
+					+svg(tw, 25*0.75, 22*0.75)
+		&.is-mail
+			i
+				+svg(mail, 25, 19)
+				+r(640)
+					+svg(mail, 25*0.75, 19*0.75)
+
+.team
+	padding: 120px 0 115px
+	overflow: hidden
+	text-align: center
+	+r(1024)
+		padding: 120px*0.75 0 115px*0.75 
+	h2
+		margin-bottom: 80px
+		+r(1024)
+			margin-bottom: 80px*0.75
+	&__row
+		font-size: 0
+		margin: 0 -39px 
+.quote
+	width: 50%
+	padding: 0 39px 63px
+	+box 
+	display: inline-block
+	vertical-align: top
+	text-align: left
+	+r(1024)
+		width: 100%
+		padding: 0 39px 63px*0.75
+	+r(480)
+		text-align: center
+	&__img
+		display: block
+		float: left
+		width: 108px
+		height: 108px
+		+border-radius(50%)
+		background: #787878
+		margin: 0 54px 0 0 
+		+r(640)
+			margin: 0 20px 0 0
+			width: 108px*0.75
+			height: 108px*0.75 
+		+r(480)
+			float: none
+			margin: 0 auto 20px
+		img
+			width: 100%
+	&__text
+		overflow: hidden
+		padding: 9px 0 0  
+		+r(640)
+			padding: 4px 0 0 
+		p
+			+litalic
+			line-height: 1.2
+			color: #56616e 
+			letter-spacing: 0.02em 
+	&__author
+		padding: 30px 0 0 
+		+r(640)
+			padding: 30px*0.75 0 0 
+		h4
+			+mbold
+			color: #56616e
+			font-size: 26.66px
+			line-height: 1.2
+			text-transform: uppercase
+			letter-spacing: 0.02em 
+			+r(1024)
+				font-size: 22px 
+			+r(640)
+				font-size: 18px
+		span
+			+msemi
+			font-size: 20px
+			line-height: 1.2
+			color: #ff8432
+			letter-spacing: 0.02em  
+			+r(1024)
+				font-size: 16px
+			+r(640)
+				font-size: 14px 
+				
+.media
+	background: #f0f0f0
+	padding: 100px 0 50px
+	text-align: center
+	overflow: hidden
+	+r(640)
+		padding: 100px*0.75 0 50px*0.75
+	h2
+		margin-bottom: 60px 
+		+r(640)
+			margin-bottom: 60px*0.75
+	&__row
+		font-size: 0
+		margin: 0 -42px
+		+r(1024)
+			margin: 0 -42px*0.75
+		+r(640)
+			margin: 0 -42px*0.5 
+	&__box
+		display: inline-block
+		vertical-align: top
+		width: 128px
+		height: 128px
+		+border-radius(50%)
+		background: #787878
+		margin: 0 42px 80px 
+		+r(1024)
+			width: 128px*0.75
+			height: 128px*0.75
+			margin: 0 42px*0.75 80px*0.75 
+		+r(640)
+			margin: 0 42px*0.5 80px*0.5 
+		img
+			width: 100%
