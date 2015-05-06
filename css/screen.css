@@ -41,6 +41,10 @@ p { font-family: "OpenSansRegular", Arial, sans-serif; font-size: 20px; line-hei
 @media only screen and (max-width: 640px) { .btn { font-size: 14px; } }
 .btn:hover { background: #e12330; }
 .btn:active { top: 1px; -moz-box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15); -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15); box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15); }
+.btn .is-show { display: block; }
+.btn .is-hide { display: none; }
+.btn.is-active .is-show { display: none; }
+.btn.is-active .is-hide { display: block; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }

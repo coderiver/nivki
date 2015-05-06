@@ -125,4 +125,12 @@ p
 	&:active
 		top: 1px
 		+box-shadow(inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15)) 
-		
+	.is-show
+		display: block
+	.is-hide
+		display: none
+	&.is-active
+		.is-show
+			display: none
+		.is-hide
+			display: block
