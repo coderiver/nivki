@@ -14,6 +14,7 @@ head.ready(function() {
 	// $(window).scroll(function(){
 	//     scrollFixedElements()
 	// });
-
-	console.log($('body').html());
+	$('.js-slide-open').on('click', function() {
+		$('.js-slide').slideToggle(400)
+	});
 });
