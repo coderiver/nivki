@@ -29,15 +29,15 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 h1, h2, h3, h4, h5, h6, strong, b { font-weight: normal; }
 
 h2 { font-family: "OpenSansBold", Arial, sans-serif; font-size: 45px; line-height: 1; color: #56616e; text-transform: uppercase; }
-@media only screen and (max-width: 1024px) { h2 { font-size: 36px; } }
+@media only screen and (max-width: 1300px) { h2 { font-size: 33.75px; } }
 @media only screen and (max-width: 640px) { h2 { font-size: 26px; } }
 
 p { font-family: "OpenSansRegular", Arial, sans-serif; font-size: 20px; line-height: 1.5; }
-@media only screen and (max-width: 1024px) { p { font-size: 16px; } }
+@media only screen and (max-width: 1300px) { p { font-size: 15px; } }
 @media only screen and (max-width: 640px) { p { font-size: 14px; } }
 
 .btn { font-family: "OpenSansBold", Arial, sans-serif; font-size: 20px; line-height: 1; letter-spacing: 0.02em; color: white; text-transform: uppercase; background: #e3303d; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding: 29px 20px; width: 100%; max-width: 325px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15); -webkit-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15); box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15); position: relative; display: inline-block; -moz-transition: background 0.3s; -o-transition: background 0.3s; -webkit-transition: background 0.3s; transition: background 0.3s; }
-@media only screen and (max-width: 1024px) { .btn { font-size: 16px; padding: 21.75px 15px; max-width: 243.75px; } }
+@media only screen and (max-width: 1300px) { .btn { font-size: 15px; padding: 21.75px 15px; max-width: 243.75px; } }
 @media only screen and (max-width: 640px) { .btn { font-size: 14px; } }
 .btn:hover { background: #e12330; }
 .btn:active { top: 1px; -moz-box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15); -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15); box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15); }
@@ -55,20 +55,20 @@ p { font-family: "OpenSansRegular", Arial, sans-serif; font-size: 20px; line-hei
 
 .inner { max-width: 1600px; padding: 0 7.9%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0 auto; *zoom: 1; }
 .inner:after { content: " "; display: table; clear: both; }
-@media only screen and (max-width: 980px) { .inner { padding: 0 5%; } }
+@media only screen and (max-width: 1300px) { .inner { padding: 0 5%; } }
 .inner h2 { clear: both; position: relative; text-align: center; }
 .inner h2:after { display: block; content: ""; width: 96px; height: 4px; background: black; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=15); opacity: 0.15; margin: 74px auto 0; }
 
 .header { background: #e3303d; padding: 49px 0 90px; text-align: center; }
-@media only screen and (max-width: 1024px) { .header { padding: 36.75px 0 67.5px; } }
+@media only screen and (max-width: 1300px) { .header { padding: 36.75px 0 67.5px; } }
 .header h2 { color: white; margin-bottom: 65px; }
 .header p { color: white; }
 .header__top { padding: 0 0 155px; }
-@media only screen and (max-width: 1024px) { .header__top { padding: 0 0 116.25px; } }
+@media only screen and (max-width: 1300px) { .header__top { padding: 0 0 116.25px; } }
 @media only screen and (max-width: 640px) { .header__top { padding: 0 0 77.5px; } }
 
 .logo { max-width: 296px; font-size: 0; float: left; }
-@media only screen and (max-width: 640px) { .logo { max-width: 222px; } }
+@media only screen and (max-width: 1300px) { .logo { max-width: 222px; } }
 @media only screen and (max-width: 480px) { .logo { float: none; display: inline-block; } }
 .logo img { width: 100%; }
 
@@ -77,55 +77,56 @@ p { font-family: "OpenSansRegular", Arial, sans-serif; font-size: 20px; line-hei
 .social li { margin-left: 19px; display: inline-block; vertical-align: top; }
 .social a { display: block; width: 49px; height: 49px; background: #c12934; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; text-align: center; font-size: 0; -moz-transition: background 0.3s; -o-transition: background 0.3s; -webkit-transition: background 0.3s; transition: background 0.3s; }
 .social a:before { content: ""; display: inline-block; vertical-align: middle; width: 0; height: 100%; }
-@media only screen and (max-width: 640px) { .social a { width: 36.75px; height: 36.75px; } }
+@media only screen and (max-width: 1300px) { .social a { width: 36.75px; height: 36.75px; } }
 .social a:hover { background: #ac252e; }
 .social a i { display: inline-block; vertical-align: middle; }
 .social a.is-fb i { background: url("../img/svg/fb.svg") no-repeat 0 0; -moz-background-size: 12px 23px; -o-background-size: 12px 23px; -webkit-background-size: 12px 23px; background-size: 12px 23px; width: 12px; height: 23px; display: inline-block; }
-@media only screen and (max-width: 640px) { .social a.is-fb i { background: url("../img/svg/fb.svg") no-repeat 0 0; -moz-background-size: 9px 17.25px; -o-background-size: 9px 17.25px; -webkit-background-size: 9px 17.25px; background-size: 9px 17.25px; width: 9px; height: 17.25px; display: inline-block; } }
+@media only screen and (max-width: 1300px) { .social a.is-fb i { background: url("../img/svg/fb.svg") no-repeat 0 0; -moz-background-size: 9px 17.25px; -o-background-size: 9px 17.25px; -webkit-background-size: 9px 17.25px; background-size: 9px 17.25px; width: 9px; height: 17.25px; display: inline-block; } }
 .social a.is-tw i { background: url("../img/svg/tw.svg") no-repeat 0 0; -moz-background-size: 25px 22px; -o-background-size: 25px 22px; -webkit-background-size: 25px 22px; background-size: 25px 22px; width: 25px; height: 22px; display: inline-block; }
-@media only screen and (max-width: 640px) { .social a.is-tw i { background: url("../img/svg/tw.svg") no-repeat 0 0; -moz-background-size: 18.75px 16.5px; -o-background-size: 18.75px 16.5px; -webkit-background-size: 18.75px 16.5px; background-size: 18.75px 16.5px; width: 18.75px; height: 16.5px; display: inline-block; } }
+@media only screen and (max-width: 1300px) { .social a.is-tw i { background: url("../img/svg/tw.svg") no-repeat 0 0; -moz-background-size: 18.75px 16.5px; -o-background-size: 18.75px 16.5px; -webkit-background-size: 18.75px 16.5px; background-size: 18.75px 16.5px; width: 18.75px; height: 16.5px; display: inline-block; } }
 .social a.is-mail i { background: url("../img/svg/mail.svg") no-repeat 0 0; -moz-background-size: 25px 19px; -o-background-size: 25px 19px; -webkit-background-size: 25px 19px; background-size: 25px 19px; width: 25px; height: 19px; display: inline-block; }
-@media only screen and (max-width: 640px) { .social a.is-mail i { background: url("../img/svg/mail.svg") no-repeat 0 0; -moz-background-size: 18.75px 14.25px; -o-background-size: 18.75px 14.25px; -webkit-background-size: 18.75px 14.25px; background-size: 18.75px 14.25px; width: 18.75px; height: 14.25px; display: inline-block; } }
+@media only screen and (max-width: 1300px) { .social a.is-mail i { background: url("../img/svg/mail.svg") no-repeat 0 0; -moz-background-size: 18.75px 14.25px; -o-background-size: 18.75px 14.25px; -webkit-background-size: 18.75px 14.25px; background-size: 18.75px 14.25px; width: 18.75px; height: 14.25px; display: inline-block; } }
 
 .team { padding: 120px 0 115px; overflow: hidden; text-align: center; }
-@media only screen and (max-width: 1024px) { .team { padding: 90px 0 86.25px; } }
+@media only screen and (max-width: 1300px) { .team { padding: 90px 0 86.25px; } }
 .team h2 { margin-bottom: 80px; }
-@media only screen and (max-width: 1024px) { .team h2 { margin-bottom: 60px; } }
+@media only screen and (max-width: 1300px) { .team h2 { margin-bottom: 60px; } }
 .team__row { font-size: 0; margin: 0 -2.9%; }
 
 .quote { width: 50%; padding: 0 2.9% 63px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; display: inline-block; vertical-align: top; text-align: left; }
-@media only screen and (max-width: 1024px) { .quote { width: 100%; padding: 0 2.9% 47.25px; } }
-@media only screen and (max-width: 480px) { .quote { text-align: center; } }
+@media only screen and (max-width: 1300px) { .quote { padding: 0 2.9% 47.25px; } }
+@media only screen and (max-width: 1024px) { .quote { width: 100%; } }
+@media only screen and (max-width: 640px) { .quote { text-align: center; } }
 .quote__img { display: block; float: left; width: 108px; height: 108px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; background: #787878; margin: 0 8.7% 0 0; }
-@media only screen and (max-width: 640px) { .quote__img { margin: 0 20px 0 0; width: 81px; height: 81px; } }
-@media only screen and (max-width: 480px) { .quote__img { float: none; margin: 0 auto 20px; } }
+@media only screen and (max-width: 1300px) { .quote__img { margin: 0 6.525% 0 0; width: 81px; height: 81px; } }
+@media only screen and (max-width: 640px) { .quote__img { float: none; margin: 0 auto 20px; } }
 .quote__img img { width: 100%; }
 .quote__text { overflow: hidden; padding: 9px 0 0; }
-@media only screen and (max-width: 640px) { .quote__text { padding: 4px 0 0; } }
+@media only screen and (max-width: 1300px) { .quote__text { padding: 4px 0 0; } }
 .quote__text p { font-family: "OpenSansLightItalic", Arial, sans-serif; line-height: 1.2; color: #56616e; letter-spacing: 0.02em; }
 .quote__author { padding: 30px 0 0; }
-@media only screen and (max-width: 640px) { .quote__author { padding: 22.5px 0 0; } }
+@media only screen and (max-width: 1300px) { .quote__author { padding: 22.5px 0 0; } }
 .quote__author h4 { font-family: "Myriad Pro", Arial, sans-serif; font-weight: 700; color: #56616e; font-size: 26.66px; line-height: 1.2; text-transform: uppercase; letter-spacing: 0.02em; }
-@media only screen and (max-width: 1024px) { .quote__author h4 { font-size: 22px; } }
+@media only screen and (max-width: 1300px) { .quote__author h4 { font-size: 19.995px; } }
 @media only screen and (max-width: 640px) { .quote__author h4 { font-size: 18px; } }
 .quote__author span { font-family: "Myriad Pro", Arial, sans-serif; font-weight: 600; font-size: 20px; line-height: 1.2; color: #ff8432; letter-spacing: 0.02em; }
-@media only screen and (max-width: 1024px) { .quote__author span { font-size: 16px; } }
+@media only screen and (max-width: 1300px) { .quote__author span { font-size: 15px; } }
 @media only screen and (max-width: 640px) { .quote__author span { font-size: 14px; } }
 
 .media { background: #f0f0f0; padding: 100px 0 50px; text-align: center; overflow: hidden; }
-@media only screen and (max-width: 640px) { .media { padding: 75px 0 37.5px; } }
+@media only screen and (max-width: 1300px) { .media { padding: 75px 0 37.5px; } }
 .media h2 { margin-bottom: 60px; }
-@media only screen and (max-width: 640px) { .media h2 { margin-bottom: 45px; } }
+@media only screen and (max-width: 1300px) { .media h2 { margin-bottom: 45px; } }
 .media__row { font-size: 0; margin: 0 -42px; }
-@media only screen and (max-width: 1450px) { .media__row { margin: 0 -20px; } }
-@media only screen and (max-width: 1024px) { .media__row { margin: 0 -15px; } }
+@media only screen and (max-width: 1300px) { .media__row { margin: 0 -31.5px; } }
+@media only screen and (max-width: 1024px) { .media__row { margin: 0 -20px; } }
 @media only screen and (max-width: 640px) { .media__row { margin: 0 -21px; } }
 .media__col { display: inline-block; vertical-align: top; }
 @media only screen and (max-width: 900px) { .media__col { width: 33.3%; } }
 @media only screen and (max-width: 500px) { .media__col { width: 50%; } }
 .media__box { display: inline-block; vertical-align: top; width: 128px; height: 128px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; background: #787878; margin: 0 42px 80px; }
-@media only screen and (max-width: 1450px) { .media__box { margin: 0 20px 30px; width: 102.4px; height: 102.4px; } }
-@media only screen and (max-width: 1024px) { .media__box { width: 96px; height: 96px; margin: 0 15px 60px; } }
+@media only screen and (max-width: 1300px) { .media__box { margin: 0 31.5px 60px; width: 96px; height: 96px; } }
+@media only screen and (max-width: 1024px) { .media__box { margin: 0 20px 60px; } }
 @media only screen and (max-width: 640px) { .media__box { margin: 0 21px 40px; } }
 .media__box img { width: 100%; }
 
